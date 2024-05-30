@@ -1,0 +1,204 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 27.97150164413592,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3069534470166231-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3069534470166231-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 72.0284983558641,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3069534470166231-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3069534470166231-2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "3069534470166231-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#8b322c",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 24,
+          "textColor": "#ffffff"
+        },
+        "text": "Layanan Fasilitas Loker Berbayar"
+      }
+    },
+    {
+      "id": "3069534470166231-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "data": {
+          "mode": "count",
+          "type": "pie",
+          "clusterField": "Brand",
+          "sortOrder": {
+            "isAsc": true,
+            "isLabelAxis": "on"
+          },
+          "maxLabels": 100
+        },
+        "display": {
+          "backgroundColor": "#8b322c",
+          "seriesStyle": {
+            "type": "custom",
+            "styles": [
+              {
+                "style": {
+                  "color": [
+                    "#68D2E0",
+                    "#087E92",
+                    "#47BCF5",
+                    "#FBE66A",
+                    "#F29157",
+                    "#C8501D"
+                  ]
+                },
+                "name": "pie~not-field",
+                "label": "pie~not-field"
+              }
+            ],
+            "customColor": {
+              "categories": [
+                {
+                  "id": "PaxelBox",
+                  "text": "PaxelBox",
+                  "label": "PaxelBox",
+                  "color": "#c96c6c"
+                },
+                {
+                  "id": "PopBox",
+                  "text": "PopBox",
+                  "label": "PopBox",
+                  "color": "#e0aeae"
+                }
+              ],
+              "others": [
+                {
+                  "id": "null",
+                  "text": "Null",
+                  "label": "Null",
+                  "color": "#808080"
+                },
+                {
+                  "id": "others",
+                  "text": "Others",
+                  "label": "Others",
+                  "color": "#808080"
+                }
+              ]
+            }
+          },
+          "legend": {
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 10.4
+            },
+            "show": true
+          },
+          "dataLabel": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": false
+          },
+          "innerRadius": 0
+        }
+      }
+    },
+    {
+      "id": "3069534470166231-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "pie",
+  "wid": "3069534470166231",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "Fasilitas Loker Berbayar",
+    "frameWorkDsId": "map~01300c963e9f4a0a8e5415a4c12a942a~32947844919669933",
+    "useSelection": false,
+    "filterByExtent": false
+  }
+}
